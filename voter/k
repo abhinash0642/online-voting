@@ -1,0 +1,50 @@
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+              <td class="cndimg" rowspan="3"></td>
+              <td class="name"></td>
+
+            </tr>
+            <tr>
+
+              <td>Party:</td>
+            </tr>
+            <tr>
+
+              <td>Constituency:</td>
+            </tr>
+            <tr>
+              <td colspan="2"><button class="votebtn">VOTE</button></td>
+            </tr>
+        </table>
+        <br>
+
+ 
+</div> -->
