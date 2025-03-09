@@ -1,0 +1,67 @@
+.resultsection {
+    width: 100%;
+    background: var(--clr);
+    margin-top: 2rem;
+    padding: 2rem;
+    color:var(--maintext);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius:.5rem;
+}
+
+.resultbody {
+    width: 100%;
+    background-color:var(--secbg);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius:.5rem;
+}
+
+.heading {
+    width: 100%;
+    background-color: #374767;
+    color: white;
+    font-size:2.2rem;
+    padding: 1rem;
+}
+
+.resultcards {
+    padding: 2rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.resultcard {
+    width: 40%;
+    background-color:var(--clr);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius:.5rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    margin-top:2rem;
+}
+.resultcard h1{
+    width:100%;
+    font-size:2.8rem;
+    font-weight: 600;
+}
+.resultbtn{
+    cursor:pointer;
+    display: inline-block;
+    width:40%;
+    margin:1rem auto;
+    background-color: var(--secclr);
+    color:var(--clr);
+    padding:.8rem 2.2rem;
+    border-radius: 3rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border: none;
+    outline:none;
+}
+.resultbtn:hover{
+    background-color: var(--clr);
+    color:var(--maintext);
+   
+    outline:3px solid var(--secclr);
+}
