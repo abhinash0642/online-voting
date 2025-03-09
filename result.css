@@ -1,0 +1,149 @@
+.mainwrapper {
+    width: 100%;
+    background-color: var(--mainbg);
+}
+
+.result-panel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem 6rem 2rem 6rem;
+}
+.selectpanel{
+    width:100%;
+    padding:1rem 2rem;
+    background-color: var(--clr);
+    color:var(--maintext);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border-radius: .5rem; 
+
+}
+.form-grouping{
+    width:100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+}
+.form-item{
+    width:40%;
+}
+.returnbtn {
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.returnbtn a {
+    padding: .7rem 2rem;
+    background: sandybrown;
+    border-radius: 2rem;
+}
+
+.returnbtn a:hover {
+    opacity: 0.7;
+}
+
+.result-section {
+    width: 100%;
+
+}
+.form-item label {
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.form-item select {
+    padding: .7rem 1rem;
+}
+
+.showbtn {
+    background-color: var(--secclr);
+    color: black;
+    padding: 0.7rem 2rem;
+    border: none;
+    outline: none;
+    border-radius: 2rem;
+    box-shadow: 0 2px 6px darkgrey;
+}
+.result-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .6rem 1rem;
+    border-radius: .6rem;
+    background: var(--bgclr2);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border: 1px solid transparent;
+}
+
+.result-head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.result-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 2rem;
+position: relative;}
+
+/* .tablewrapper{
+
+height:100%;
+display: flex;
+flex-direction: column;
+align-content: space-around;
+
+} */
+
+
+.statstbl,
+.partyperctgtbl,
+.partydoughnutchart,
+.partyseatstable {
+    border-radius: .5rem;
+    background: var(--clr);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    border: 1px solid transparent;
+    margin-bottom: 4rem;
+}
+.tablewrapper{
+    position: relative;display: flex;width:30%;
+min-height: 500px;flex-direction: column;justify-content: space-evenly;/* align-content: center; */}
+.seats-charts{
+    width:50%;
+}
+.partydoughnutchart {
+   
+    padding: 1rem;
+}
+
+.result-seats-info {
+    background: skyblue;
+    font-size: 1.7rem;
+    font-weight: 500;
+    color: var(--maintext);
+    padding: .6rem 1rem;
+
+}
+
+.chartsection {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: var(--clr);
+    border: 1px solid var(--maintext);
+}
+
+#myChart {
+    color: black;
+    width: 40rem;
+    height: 20rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
